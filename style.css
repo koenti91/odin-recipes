@@ -1,9 +1,46 @@
 body {
   font-family: "Courier New", Courier, monospace;
-  background-color: rgb(34, 19, 19);
-  color: rgb(178, 164, 164);
+  background-color: #2a2438;
+  text-align: center;
 }
 
-h2 {
+h1 {
+  margin: 50px auto 20px;
+  width: 30%;
+  border: 5px solid #dbd8e3;
+}
+
+h1,
+.recipe-list {
+  background-color: #5c5470;
+  border-radius: 6px;
+}
+
+h1,
+a {
+  color: #dbd8e3;
+}
+
+h1,
+h2,
+a {
   font-weight: 900;
+}
+
+.recipe-list {
+  display: inline-block;
+  padding: 10px;
+  width: 25%;
+  border: 3px solid #dbd8e3;
+}
+
+li {
+  margin: 0 auto;
+  list-style-type: none;
+  text-align: left;
+  padding: 3px 0;
+}
+
+a {
+  color: #dbd8e3;
 }
